@@ -26,13 +26,13 @@ exec "nohlsearch"
 set ignorecase
 set smartcase
 
-autocmd FileType html set omnifunc=htmlcomplete#CompleteTags
-
-call plug#begin()
+call plug#begin('~/.vim/plugged')
 
 Plug 'vim-airline/vim-airline'
 Plug 'connorholyday/vim-snazzy'
 Plug 'preservim/nerdtree'
+Plug 'ycm-core/YouCompleteMe'
 
 call plug#end()
 
+colorscheme snazzy
