@@ -14,6 +14,7 @@ set encoding=utf-8
 set backspace=indent,eol,start
 set nolist
 set tabstop=4
+set shiftwidth=4
 
 set number
 syntax on
@@ -31,7 +32,7 @@ call plug#begin('~/.vim/plugged')
 Plug 'vim-airline/vim-airline'
 Plug 'connorholyday/vim-snazzy'
 Plug 'preservim/nerdtree'
-Plug 'ycm-core/YouCompleteMe'
+Plug 'jiangmiao/auto-pairs'
 
 call plug#end()
 
