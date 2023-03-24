@@ -1,5 +1,4 @@
 ## .vim
----
 My vim config
 
 ### Usage
