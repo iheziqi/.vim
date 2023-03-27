@@ -13,8 +13,8 @@ set mouse=a
 set encoding=utf-8
 set backspace=indent,eol,start
 set nolist
-set tabstop=4
-set shiftwidth=4
+set tabstop=2
+set shiftwidth=2
 
 set number
 syntax on
